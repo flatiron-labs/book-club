@@ -16,6 +16,10 @@ Delegation oriented JS (OLOOJS):
 - simpler
 - more straight forward
 
+### Composition Over Inheritance
+
+Change the way you build relationships between objects
+
 ### Delegation-Oriented Design (p114)
 
 > "...the actual mechanism, the essence of what’s important to the
@@ -68,10 +72,28 @@ p131:
 
 ^^ Agree? Examples?
 
+### Separation of concerns
+
+Separate constructor and initializer
+- in Ruby: `allocate` + `initialize`
+  - `allocate` == give me an object
+  - `initialize` == create this object
+
+example p129
+1. create Widget
+2. call `setup` on this new object
+3. `setup` doesn't happen dynamically at runtime
+
 ### Introspection
 
 Approaches:
 - Check prototype, but awkward/unintuitive
-- Use duck typing (some downfalls)
+- Use duck typing (some downfalls, specifically Promises)
 - `Foo.isPrototypeOf` => OLOO approach, so best
 
+### Reality Check
+
+Teaching this:
+- in real world, we all use libraries
+- in real world, students will see Classes
+- Steven more likely to teach Classes
