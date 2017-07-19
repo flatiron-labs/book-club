@@ -73,14 +73,14 @@ def dec(x), do: x - 1
 
 2 |> inc |> inc |> dec
 ```
-- can chain function calls together into *pipes/pipelines* made up of *segments*
+- can chain function calls together into **pipes/pipelines** made up of **segments**
 - takes the value on the left and passes it in as the first argument on the right
 - pipelines are functions as well, you can make pipelines of pipelines
 
 `connection |> phoenix`
 - connection has all the info about the request
 - phoenix is just a set of pipelines that modify it, until the end when a response is given from the connection
-- *interesting this is the first thing they talk about*, *seems foundational*
+- **interesting this is the first thing they talk about**, **seems foundational**
 
 ### Layers of Phoenix
 
@@ -109,9 +109,9 @@ connection
 |> template
 ```
 
-- common services implemented with *Plug*
+- common services implemented with **Plug**
 
-	- In Phoenix, *limit side effects* => fns that touch and modify the outside world, calling fn with the same arguments always yields the same results
+	- In Phoenix, **limit side effects** => fns that touch and modify the outside world, calling fn with the same arguments always yields the same results
 	- separate code that calls a server/database from code that transforms data
 	- process data in the model
 	- read/write data through the controller
@@ -149,7 +149,7 @@ iex> {first, second, third} = {:lions, :tigers, :bears} {:lions, :tigers, :bears
 iex> first :lions
 iex> {first, second, :bears} = {:lions, :tigers, :bears} {:lions, :tigers, :bears}
 iex> {first, second, :armadillos} = {:lions, :tigers, :bears}
-** (MatchError) no match of right hand side value: {:lions, :tigers, :bears}
+**** (MatchError) no match of right hand side value: {:lions, :tigers, :bears}
 
 iex> austin = %{city: "Austin", state: "Tx"} %{city: "Austin", state: "Tx"}
 iex> defmodule Place do
@@ -168,10 +168,10 @@ iex> defmodule Place do
 ### Plugs
 - Specification for building applications for the web
 - Consumes and produces `Plug.Conn` structs
-	- *represents the whole universe*
+	- **represents the whole universe**
 - takes in a `conn` and returns a slightly modified `conn`
-- *Plugs are functions*
-- *Your web app is a pipeline of plugs*
+- **Plugs are functions**
+- **Your web app is a pipeline of plugs**
 
 ### File Structure
 `config` -> phoenix config
@@ -179,7 +179,7 @@ iex> defmodule Place do
 `test` -> tests
 `web` -> web related models, views, templates, and controllers
 
-*web vs lib*
+**web vs lib**
 - web is hot reloaded
 - lib for long running services: Phoenix PubSub, database connection pool, supervised processes
 
