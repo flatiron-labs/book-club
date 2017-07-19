@@ -3,9 +3,9 @@
 
 ## Why Elixir?
 
-• Fast
-• Concurrent:
-	• Multiple calls to DB
+- Fast
+- Concurrent:
+	- Multiple calls to DB
 
 ```
 company_task  = Task.async(fn -> find_company(cid) end)
@@ -16,10 +16,10 @@ user = Task.await(user_task)
 cart = Task.await(cart_task)
 ```
 
-• Beautiful
-	• Macros
-	• Pipelines
-		• no more `skip_before_filter`. Build pipelines for groups of routes that all just work
+- Beautiful
+	- Macros
+	- Pipelines
+		- no more `skip_before_filter`. Build pipelines for groups of routes that all just work
 
 ```
 pipeline :browser do
@@ -39,13 +39,13 @@ scope “/api/“, MyApp do
 end
 ```
 
-• Simple Abstractions
-	• OO languages, inheritance is not rich enough abstraction
-	• Example: Authentication (touches all parts of an app)
-•  Interactive
-• Scaling by Forgetting
-• Processes and Channels
-	• Elixir lightweight processes, can scale to hundreds of thousands
+- Simple Abstractions
+	- OO languages, inheritance is not rich enough abstraction
+	- Example: Authentication (touches all parts of an app)
+-  Interactive
+- Scaling by Forgetting
+- Processes and Channels
+	- Elixir lightweight processes, can scale to hundreds of thousands
 
 ```
 def handle_in("new_annotation", params, socket) do broadcast! socket, "new_annotation", %{
@@ -73,14 +73,14 @@ def dec(x), do: x - 1
 
 2 |> inc |> inc |> dec
 ```
-• can chain function calls together into *pipes/pipelines* made up of *segments*
-• takes the value on the left and passes it in as the first argument on the right
-• pipelines are functions as well, you can make pipelines of pipelines
+- can chain function calls together into *pipes/pipelines* made up of *segments*
+- takes the value on the left and passes it in as the first argument on the right
+- pipelines are functions as well, you can make pipelines of pipelines
 
 `connection |> phoenix`
-• connection has all the info about the request
-• phoenix is just a set of pipelines that modify it, until the end when a response is given from the connection
-• *interesting this is the first thing they talk about*, *seems foundational*
+- connection has all the info about the request
+- phoenix is just a set of pipelines that modify it, until the end when a response is given from the connection
+- *interesting this is the first thing they talk about*, *seems foundational*
 
 ### Layers of Phoenix
 
@@ -109,19 +109,19 @@ connection
 |> template
 ```
 
-• common services implemented with *Plug*
+- common services implemented with *Plug*
 
-	• In Phoenix, *limit side effects* => fns that touch and modify the outside world, calling fn with the same arguments always yields the same results
-	• separate code that calls a server/database from code that transforms data
-	• process data in the model
-	• read/write data through the controller
+	- In Phoenix, *limit side effects* => fns that touch and modify the outside world, calling fn with the same arguments always yields the same results
+	- separate code that calls a server/database from code that transforms data
+	- process data in the model
+	- read/write data through the controller
 
 ### Dependencies
-• Erlang
-• Elixir
-• Hex - elixir’s package manager
-• brunch & npm for asset management
-• Phoenix
+- Erlang
+- Elixir
+- Hex - elixir’s package manager
+- brunch & npm for asset management
+- Phoenix
 
 
 ### Routes
@@ -159,19 +159,19 @@ iex> defmodule Place do
 ```
 
 #### Atom keys vs String keys
-• External data cannot be safely converted into atoms because the atom table isn’t garbage collected.
-• Match on string keys in your boundaries (controllers and channels), those will convert to atoms to be used everywhere else
+- External data cannot be safely converted into atoms because the atom table isn’t garbage collected.
+- Match on string keys in your boundaries (controllers and channels), those will convert to atoms to be used everywhere else
 
 ## The Request Pipeline
-• Web applications are just functions: URL => formatted HTML response string
+- Web applications are just functions: URL => formatted HTML response string
 
 ### Plugs
-• Specification for building applications for the web
-• Consumes and produces `Plug.Conn` structs
-	• *represents the whole universe*
-• takes in a `conn` and returns a slightly modified `conn`
-• *Plugs are functions*
-• *Your web app is a pipeline of plugs*
+- Specification for building applications for the web
+- Consumes and produces `Plug.Conn` structs
+	- *represents the whole universe*
+- takes in a `conn` and returns a slightly modified `conn`
+- *Plugs are functions*
+- *Your web app is a pipeline of plugs*
 
 ### File Structure
 `config` -> phoenix config
@@ -180,11 +180,11 @@ iex> defmodule Place do
 `web` -> web related models, views, templates, and controllers
 
 *web vs lib*
-• web is hot reloaded
-• lib for long running services: Phoenix PubSub, database connection pool, supervised processes
+- web is hot reloaded
+- lib for long running services: Phoenix PubSub, database connection pool, supervised processes
 
 ### Wrapping Up
-• Web applications in Phoenix are pipelines of plugs
-• The basic flow of traditional applications is endpoint, router, pipeline, controller.
-• Routers distribute requests.
-• Controllers call services and set up intermediate data for views.
+- Web applications in Phoenix are pipelines of plugs
+- The basic flow of traditional applications is endpoint, router, pipeline, controller.
+- Routers distribute requests.
+- Controllers call services and set up intermediate data for views.
