@@ -34,3 +34,23 @@
 
 ### Building Forms (p60)
 
+Changesets:  
+- Manage record changes
+- Cast parameters
+- Perform validations
+
+- "Customized strategy" for handling different kinds of changes
+- Composable
+- Allow for multiple "update policies"
+- "Policy segregation" (p61)
+
+#### Questions
+
+1. Second Parameter `:empty` - is this still a thing?
+
+
+### Creating Resources (p64)
+
+- Changesets validate AND track changes
+
+> Ecto is using changesets as a bucket to hold everything related to a database change, **before and after persistence**.
