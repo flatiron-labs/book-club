@@ -50,3 +50,10 @@ Supported in Phoenix by
 - Without side effects: testing changesets validity
 - because the tests are functional, they can be concurrent
 - With side effects: repository tests. Rationale is to test some error conditions as close to breaking point as possible, even though the integration tests probably handle 
+
+## Testing Pyramid [link](https://martinfowler.com/bliki/TestPyramid.html)
+- Unit Tests - bottom, foundation
+- Integration
+- Acceptance
+- View
+- Manual Testing
