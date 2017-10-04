@@ -42,4 +42,4 @@ The pattern of keeping multiple applications in the same repository is known as 
 
 If you find yourself in a position where you want to use different configurations to different applications in the same umbrella or to use different dependency versions, then it is likely your codebase have grown beyond what umbrellas can provide."
 
-Source: [Dependencies and umbrella projects](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-apps.html)
+Source: [Dependencies and umbrella projects](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-apps.html#dont-drink-the-kool-aid)
