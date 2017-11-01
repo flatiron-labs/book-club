@@ -81,6 +81,6 @@
   - --f or --format selectively returns results
 
 ### Destroy All
-- `docker rm -f `sudo docker ps -a -q``
+- "docker rm -f `sudo docker ps -a -q`"
   - returns list of container ids for docker to remove
   - -f force removes running containers
