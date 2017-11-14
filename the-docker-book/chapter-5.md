@@ -23,4 +23,6 @@ Every time Docker creates a container, it creates a pair of peer interfaces that
 
 # Continuous integration
 1) installing jenkins.  Creating image and running with /var/run/docker.sock mounted.
-2) Created a jenkins job that will build a basic docker images.  We then mount the code during runtime and run rspec.  The way he is building containers is a little different than we are.  He builds very generic images without code, and then mounts code at runtime, but we add the code in during the build.
+2) Created a jenkins job that will build a basic docker images.  We then mount the code during runtime and run rspec.  
+The way he is building images is a little different than we are.  He builds very generic images without code, and then mounts code at runtime, but we add the code in during the build.
+3) continue talking about Jenkins for a while.  There are multi-configuration jobs where you can make a matrix of jobs and run in parallel.
