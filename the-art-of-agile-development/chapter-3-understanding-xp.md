@@ -43,11 +43,6 @@ Tight feedback loop. Deploy subsets of the feature weekly so we can hear from th
 
 ## The XP Team
 
-> Location 852:
-"At the beginning of each iteration, the team meets for a series of activities: an iteration demo, a retrospective, and iteration planning."
-
-This sounds like the rule: if a project is going to last more than a week, there should be weekly checkins.
-
 ### Team Members
 
 - On-Site Customers
@@ -105,6 +100,11 @@ This sounds like the rule: if a project is going to last more than a week, there
 ### Notes on teams
 
 Suggested team sizes: 5 - 12 (20 with some special practices) (location 1094)
+
+> Location 852:
+"At the beginning of each iteration, the team meets for a series of activities: an iteration demo, a retrospective, and iteration planning."
+
+This sounds like the rule: if a project is going to last more than a week, there should be weekly checkins.
 
 Question: All team members should be full time (LocationL 1186). How can we do this with internal customers?
 
