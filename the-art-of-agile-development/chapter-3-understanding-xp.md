@@ -1,8 +1,5 @@
 # Chapter 3. Understanding XP
 
-## Some vocabulary
-- Exploratory testing: ?
-
 Tight feedback loop. Deploy subsets of the feature weekly so we can hear from the customer how it is performing. - Minimizes the amount of unproven work.
 
 ## The XP Lifecycle (1 iteration)
