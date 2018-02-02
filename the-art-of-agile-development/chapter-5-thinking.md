@@ -22,7 +22,7 @@ Think about:
 _Be careful not to be an annoying/annoyed navigator, let the driver do their job._
 * You get to spend more time in a ***flow state***, plus you're more able to take on challenges and more resilient to interruption.
 
-![](assets/flow.png)
+![](assets/flow.jpg)
 
 * It's fun!
 
