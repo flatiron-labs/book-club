@@ -22,13 +22,13 @@ Think about:
 _Be careful not to be an annoying/annoyed navigator, let the driver do their job._
 * You get to spend more time in a ***flow state***, plus you're more able to take on challenges and more resilient to interruption.
 
-![](assets/flow.svg)
+![](/assets/flow.svg)
 
 * It's fun!
 
 #### How to Pair
 * Always be willing to make or join a new pair.
-* You should switch pairs multiple times a day. _(???)_
+* You should switch pairs multiple times a day.
 __Rishi Note:__ Personally, this is one of the few thins I really questioned. Let me know if you agree. :)
 * Be physically comfortable.
 * Talk about what you're doing throughout the process.
