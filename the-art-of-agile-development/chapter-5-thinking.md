@@ -43,7 +43,8 @@ __Rishi Note:__ Personally, this is one of the few things I really questioned. L
 #### Pairing Stations
 * Lots of room for two people/computers.
 * __Splurge__ on large monitors.
-* __Rishi Note__: At my last job we had a plethora of wireless trackpads and keyboards so two people could control the computer in casenp we wanted to switch off.
+
+__Rishi Note__: At my last job we had a plethora of wireless trackpads and keyboards so two people could control the computer in case we wanted to switch off.
 
 #### Challenges
 * Comfort: Stay comfy y'all, and if you love coffee/garlic, have some gum on hand.
