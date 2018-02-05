@@ -29,7 +29,7 @@ _Be careful not to be an annoying/annoyed navigator, let the driver do their job
 #### How to Pair
 * Always be willing to make or join a new pair.
 * You should switch pairs multiple times a day.
-__Rishi Note:__ Personally, this is one of the few thins I really questioned. Let me know if you agree. :)
+__Rishi Note:__ Personally, this is one of the few things I really questioned. Let me know if you agree. :)
 * Be physically comfortable.
 * Talk about what you're doing throughout the process.
 * Expect to be tired at the end. You should have accomplished a lot.
