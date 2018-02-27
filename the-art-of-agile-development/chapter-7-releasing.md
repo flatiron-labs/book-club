@@ -1,12 +1,12 @@
 # Chapter 7 Releasing
 
-1. Done Done
-2. No bugs
-3. Version Control
-4. Ten-Minute Build
-5. Continuous Integration
-6. Collective Code Ownership
-7. Documentation
+1. Done Done - Steven 1
+2. No bugs 3
+3. Version Control - 0
+4. Ten-Minute Build - 2
+5. Continuous Integration - 2
+6. Collective Code Ownership - 
+7. Documentation - .5
 
 ## 1. "Done Done"
   - done when production ready software
