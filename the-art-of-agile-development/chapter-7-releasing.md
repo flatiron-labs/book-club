@@ -59,6 +59,8 @@
   - one-step setup?? (sounds good)
   - automate the build (also sounds good)
   - test suite + code on an env
+  - FOR US: ten minute test build + deployment (?)
+  - limit should be a forcing function to ask why? decouple from db? 
 
 **Questions:**
  - What should we consider the definition of a build? Is it tests + releasing code? Or something else?
@@ -72,7 +74,7 @@
 - asynchronous integration - tends to disrupt flow and lead to broken builds
 
 **Questions:**
-  - how is this separate integratino machine diff from qa or staging? 
+  - how is this separate integration machine diff from qa or staging? 
   - How would we envision this in our world with perhaps Docker? 
 
 
