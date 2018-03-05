@@ -2,7 +2,7 @@
 
 ## Vision
 
-## Takeaways:
+### Takeaways:
 
 1. The vision should be documented and updated as it evolves.
   * The vision statement documents three things: _what_ the project should accomplish, _why_ it is valuable, and the project’s _success criteria_.
@@ -11,7 +11,7 @@
   * It should be used to “evangelize” the product to stakeholders and to explain the priority hierarchy of stories.
   * Visionaries should be included in product decisions.
 
-## Talking Points/Questions:
+### Talking Points/Questions:
 
 * Does everyone know our vision for Learn?
 * Should we include the vision at the top of every Product Spec? We have a loose version of this with problem statements and goals.
@@ -67,7 +67,7 @@
   * Relies on many of XP’s simplifying assumptions, and may not work for every team or project.
   * The planning game assumes that the team has a single dominant constraint (programmers).
 
-## Talking Points/Questions:
+### Talking Points/Questions:
 
 * Every project has a fixed amount of disappointment associated with it.
 * How can we do a planning exercise with remote teammates that has the same physical impact as index cards?
@@ -94,7 +94,7 @@
   * Contingency activities: reduce the impact of the risk if it occurs.
   * Risk exposure: how much time/money to set aside to contain the risk.
 
-## Talking Points/Questions:
+### Talking Points/Questions:
 
 * When does this multiplying take place? Does the product manager do this with the estimates provided by engineers? Are the engineers already doing this risk management with their numbers?
 * Feels like we would use the “Risky” column in the generic risk multiplier chart.
