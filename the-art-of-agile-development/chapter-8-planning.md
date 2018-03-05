@@ -1,25 +1,25 @@
-Chapter 8: Planning
+#Chapter 8: Planning#
 
-*Vision*
+##Vision##
 
-**Takeaways:**
+###Takeaways:###
 
 1. The vision should be documented and updated as it evolves.
-⋅⋅*The vision statement documents three things: _what_ the project should accomplish, _why_ it is valuable, and the project’s _success criteria_.
+⋅⋅* The vision statement documents three things: _what_ the project should accomplish, _why_ it is valuable, and the project’s _success criteria_.
 2. The vision should be visible and often referred back to or referenced.
-⋅⋅*The vision should be posted prominently in the team’s informative workspace. 
-⋅⋅*It should be used to “evangelize” the product to stakeholders and to explain the priority hierarchy of stories.
-⋅⋅*Visionaries should be included in product decisions.
+⋅⋅* The vision should be posted prominently in the team’s informative workspace. 
+⋅⋅* It should be used to “evangelize” the product to stakeholders and to explain the priority hierarchy of stories.
+⋅⋅* Visionaries should be included in product decisions.
 
-**Talking Points/Questions:**
+###Talking Points/Questions:###
 
 * Does everyone know our vision for Learn?
 * Should we include the vision at the top of every Product Spec? We have a loose version of this with problem statements and goals.
 * Is our vision too vague to be used in this way?
 
-*Release Planning*
+##Release Planning##
 
-**Takeaways:**
+###Takeaways:###
 
 1. Work on one project at a time.
 ⋅⋅*Task-switching is costly.
@@ -39,7 +39,7 @@ Chapter 8: Planning
 ⋅⋅⋅⋅*General plan = long planning horizon
 ⋅⋅⋅⋅*Specific, detailed plan = short planning horizon
 
-**Talking Points/Questions:**
+###Talking Points/Questions:###
 
 * How can we structure our team to be able to work on one project at a time?
 * At what team size does this become inefficient?
@@ -49,9 +49,9 @@ Chapter 8: Planning
 * Doing adaptive planning under the radar - thoughts?
 * Planning at the last responsible moment means we can’t show exactly what we’ll deliver. Doesn’t that require too much trust from stakeholders?
 
-*The Planning Game*
+##The Planning Game##
 
-**Takeaways:**
+###Takeaways:###
 
 1. The planning game is a structured approach to creating the best possible plan given the information available.
 ⋅⋅*Programmers estimate because they have the most information regarding cost.
@@ -67,16 +67,16 @@ Chapter 8: Planning
 ⋅⋅*Relies on many of XP’s simplifying assumptions, and may not work for every team or project.
 ⋅⋅*The planning game assumes that the team has a single dominant constraint (programmers).
 
-**Talking Points/Questions:**
+###Talking Points/Questions:###
 
 * Every project has a fixed amount of disappointment associated with it.
 * How can we do a planning exercise with remote teammates that has the same physical impact as index cards?
 * How can we ensure that our customers are as knowledgeable about the planning process as we will be after reading this book? 
 * Single dominant constraint = how quickly programmers program. Is this the only constraint on our team? What about the constraint of training many part-time and/or distributed end users? 
 
-*Risk Management*
+##Risk Management##
 
-**Takeaways:**
+###Takeaways:###
 
 1. Despite life’s curveballs, risk management allows your team to make and meet the schedule commitments upon which stakeholders rely.
 2. When estimating, use the provided _generic risk multipliers_ to account for the normal risks of a project.
@@ -94,7 +94,7 @@ Chapter 8: Planning
 ⋅⋅*Contingency activities: reduce the impact of the risk if it occurs.
 ⋅⋅*Risk exposure: how much time/money to set aside to contain the risk.
 
-**Talking Points/Questions:**
+###Talking Points/Questions:###
 
 * When does this multiplying take place? Does the product manager do this with the estimates provided by engineers? Are the engineers already doing this risk management with their numbers?
 * Feels like we would use the “Risky” column in the generic risk multiplier chart.
