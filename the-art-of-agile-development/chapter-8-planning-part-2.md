@@ -57,7 +57,21 @@
 
 ### Takeaways:
 
+* This allows us to compensate for randomness and keep a steady velocity
+* A better approach is to schedule useful, important work that isn’t time-critical — work you can set aside in case of an emergency. Paying down technical debt fits the bill perfectly.
+* Rather than doing the bare minimum necessary to keep your head above water, be generous in refactoring and cleaning up technical debt in existing code.
+* A good rule of thumb is to spend 10 percent of the iteration on technical debt. (Perform big refactorings incrementally.)
+* As you fix technical debt, focus on fixes that make your current work easier. Don't focus on unrelated stuff.
+* Dedicated research time is an excellent way to encourage learning and add additional slack into your iterations.
+* The continuous drumbeat of iteration deadlines is great for reducing risk and motivating the team to excel, but it can lead to tunnel vision. Dedicated research time gives programmers a chance to widen their ranges, which often leads to insights about how to develop more effectively.
+* Be careful not to overuse overtime. Overuse will sap team members’ ability to do good work. You can use it to clean up after small problems, but each programmer should only contribute an hour or so per day, and only voluntarily.
+* In my experience, there are two big sources of randomness on XP teams: customer unavailability and technical debt.
+* The danger of thinking of these tasks as slack is thinking they aren’t important. They’re actually vital, and a team that doesn’t perform these tasks will slow down over time.
+
 ### Talking Points/Questions:
+
+* Can companies that don't have slack not meet their commitments because they are pushing their limits?
+* What would "slack" look like for labs? Which practices seem good for us? What do we already do?
 
 ## Stories
 
