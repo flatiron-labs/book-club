@@ -11,8 +11,15 @@
   - Demonstrate previous iteration (up to half an hour)
   - Hold retrospective on previous iteration (one hour) 
   - Plan iteration (half an hour to four hours)
+    * Start by measuring the velocity of the previous iteration.
+    * With your velocity in hand, you can select the stories to work on this iteration.
+    * Because the iteration planning meeting takes stories from the front of the release plan, you should have already estimated and prioritized those stories.
+    * After you have chosen the stories for the iteration, everybody but the programmers can leave the meeting, although anybody is welcome to stay if she likes.
+    * At this point, the real work of iteration planning begins. Start by breaking down the stories into engineering tasks.
+ 
   - Commit to delivering stories (five minutes) Develop stories (remainder of iteration)
   - Prepare release (less than 10 minutes)
+
 
 ### Talking Points/Questions:
 
