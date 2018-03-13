@@ -95,4 +95,19 @@
 
 ### Takeaways:
 
+* Are good estimates possible? Of course! You just need to focus on your strengths.
+* One reason estimating is so difficult is that programmers can rarely predict how they will spend their time.
+* Part of the secret to making good estimates is to predict the effort, not the calendar time, that a project will take. Make your estimates in terms of ideal engineering days (often called story points), which are the number of days a task would take if you focused on it entirely and experienced no interruptions.
+* In a mature XP team, velocity is stable enough to predict schedules with a high degree of accuracy
+* Velocity relies upon a strict iteration timebox. To make velocity work, never count stories that aren’t “done done” at the end of the iteration. Never allow the iteration deadline to slip, not even by a few hours.
+* You may be tempted to cheat a bit and work longer hours, or to slip the iteration deadline, in order to finish your stories and make your velocity a little higher. Don’t do that! Artificially raising velocity sabotages the equilibrium of the feedback cycle.
+* Velocity tends to be unstable at the beginning of a project. Give it three or four iterations to stabilize. After that point, you should achieve the same velocity every iteration, unless there’s a holiday during the iteration.
+* All the programmers should participate in estimating. At least one customer should be present to answer questions.
+* It’s almost a law of physics: customers and stakeholders are invariably disappointed with the amount of features their teams can
+provide. Sometimes they express that disappointment out loud. The best way to deal with this is to ignore the tone and treat the comments as straightforward requests for information.
+* This approach also requires trust: developers need to believe they can give accurate estimates without being attacked, and customers and stakeholders need to believe the developers are providing honest estimates.
+
 ### Talking Points/Questions:
+
+* What are the greatest obstacles for Labs to make good estimates right now?
+* How much better would our lives be if we could estimate perfectly?
