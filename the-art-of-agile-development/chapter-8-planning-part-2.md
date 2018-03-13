@@ -26,6 +26,11 @@
     * Ask each person, in turn, if he can commit to doing so. Wait for a verbal “yes.”
   - Prepare release (less than 10 minutes)
     * At the end of the iteration, release your completed software to stakeholders. With a good 10-minute build, this shouldn’t require any more than a button press and a few minutes’ wait.
+* When things go wrong
+  - When you discover a problem that threatens your iteration commitment, first see if there’s any way you can change your plan so that you still meet your commitments.
+  - Sometimes the problem will be too big to absorb. In this case, you’ll usually need to reduce the scope of the iteration.
+  - Under no circumstances, however, should you change the iteration deadline.
+  -After changing the plan, the customers should reestablish trust with stakeholders by explaining what happened, why, and what the team is doing to prevent this sort of problem in the future.
 
 ### Talking Points/Questions:
 
