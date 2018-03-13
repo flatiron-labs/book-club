@@ -22,11 +22,10 @@
     * Estimate the tasks in ideal hours.
     * As a final check, add up the estimates and compare them to the total task estimates from your previous iteration.
     * Discuss the situation with your on-site customers...adjust the plan until the team is ready to commit to delivering its stories.
-
-
   - Commit to delivering stories (five minutes) Develop stories (remainder of iteration)
+    * Ask each person, in turn, if he can commit to doing so. Wait for a verbal “yes.”
   - Prepare release (less than 10 minutes)
-
+    * At the end of the iteration, release your completed software to stakeholders. With a good 10-minute build, this shouldn’t require any more than a button press and a few minutes’ wait.
 
 ### Talking Points/Questions:
 
