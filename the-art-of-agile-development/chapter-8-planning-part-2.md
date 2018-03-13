@@ -49,11 +49,9 @@
 
 ### Talking Points/Questions:
 
-* How should we schedule time for fixing bugs?
-* If we don’t estimate stories during iteration planning, when do we estimate stories?
-* All the available tasks depend on tasks that other pairs are working on right now. What should I work on?
-* What should the batman do when there are no outstanding support requests?
-
+* What aspects of iteration planning seem like they would be a good fit for Labs?
+* What problems could we solve with iteration planning?
+* What new problems could we have with iteration planning?
 
 ## Slack
 
