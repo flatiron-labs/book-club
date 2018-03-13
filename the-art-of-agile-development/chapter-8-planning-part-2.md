@@ -30,9 +30,30 @@
   - When you discover a problem that threatens your iteration commitment, first see if there’s any way you can change your plan so that you still meet your commitments.
   - Sometimes the problem will be too big to absorb. In this case, you’ll usually need to reduce the scope of the iteration.
   - Under no circumstances, however, should you change the iteration deadline.
-  -After changing the plan, the customers should reestablish trust with stakeholders by explaining what happened, why, and what the team is doing to prevent this sort of problem in the future.
+  - After changing the plan, the customers should reestablish trust with stakeholders by explaining what happened, why, and what the team is doing to prevent this sort of problem in the future.
+* Emergency requests
+  - You can change the iteration schedule under the condition that you take out as much work as you add.
+  - an emergency in every iteration means that something is wrong.
+  - In some cases, however, the team has a legitimate need to provide ongoing support for ad hoc requests. If this is true for your team, sacrifice a programmer to be the batman.
+  - Rotate a new programmer into the batman role every iteration to prevent burn-out.
+* When you use iterations well, your team has a consistent, predictable velocity.
+* Never artificially inflate your velocity. Similarly, don’t use commitment as a club. Never force team members to commit to a plan they don’t agree with.
+* Energized work is also important. Without it, the team will have trouble maintaining equilibrium and a stable velocity.
+* Iteration length:
+  - Many teams prefer two-week iterations.
+  - shorter iterations means more rapid improvement for a team new to XP.
+  - One-week iterations also make decisions easier by reducing schedule risk.
+  - one-week iterations put more pressure on the team.
+  - Velocity is less stable in one-week iterations
+  - Two-week iterations are a little less stressful and lead to a more stable velocity.
 
 ### Talking Points/Questions:
+
+* How should we schedule time for fixing bugs?
+* If we don’t estimate stories during iteration planning, when do we estimate stories?
+* All the available tasks depend on tasks that other pairs are working on right now. What should I work on?
+* What should the batman do when there are no outstanding support requests?
+
 
 ## Slack
 
