@@ -77,7 +77,19 @@
 
 ### Takeaways:
 
+* Stories are for planning. They’re simple one- or two-line descriptions of work the team should produce.
+* Story characteristics:
+  1. Stories represent customer value and are written in the customers’ terminology. (The best stories are actually written by customers.) They describe an end-result that the customer values, not implementation details.
+  2. Stories have clear completion criteria. Customers can describe an objective test that would allow programmers to tell when they’ve successfully implemented the story.
+* physical cards have one feature that no conglomeration of pixels has: they’re tactile.
+* Stories need to be customer-centric.
+* include any technical considerations in the estimate for each story.
+* Sometimes programmers won’t be able to estimate a story because they don’t know enough about the technology required to implement the story. In this case, create a story to research that technology.
+* When you use stories well, the on-site customers understand all the work they approve and schedule. You work on small, manageable, and independent pieces and can deliver complete features frequently. The project always represents the best possible value to the customer at any point in time.
+
 ### Talking Points/Questions:
+
+* How do we use stories now? Pros / cons?
 
 ## Estimating
 
