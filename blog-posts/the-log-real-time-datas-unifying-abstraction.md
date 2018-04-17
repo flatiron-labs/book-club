@@ -48,6 +48,8 @@ What concept do all these systems share? The Log, aka "write-ahead logs", "commi
 - Subscription
   - example: "Oracle has productized the log as a general data subscription mechanism for non-oracle data subscribers with their XStreams and GoldenGate"
 
+**Discussion points:**
+
 > The use of logs as a mechanism for data subscription seems to have arisen almost by chance.
 
 ### Logs in distributed systems
@@ -61,6 +63,12 @@ Core design problem for distributed system: contract for ordering changes
 Timestamp acts as unique identifier, clock for the state (allows you to time travel)
 
 > As long as two processes process these inputs in the same way, the processes will remaining consistent across replicas.
+
+**Discussion points:**
+
+- What are other examples of state machine replication?
+- How does this relate to concept of idempotency?
+
 
 #### Physical vs Logical logging
 
@@ -85,7 +93,6 @@ Real world example:
 - Sorta similar to source code version control (both have to manage distributed, concurrent changes in state)
 - Source control sequence of patches is essentially a log
 
-
 ## PART TWO: Data Integration
 
 Definition:
@@ -102,20 +109,18 @@ Maslow's Hiearachy of Needs analogy:
 
 Start by building a firm base of reliable, complete data flow.
 
-
-
 ### Data Integration: Two complications
 
-1. The event data firehose
+#### 1. The event data firehose
 
 - Event data: records things that happen rather than things that are
 - Examples: user activity logging, machine-level events, etc.
 - There's lots of it
 
-
-2. The explosion of specialized data systems
+#### 2. The explosion of specialized data systems
 
 - Examples: OLAP, search, simple online storage, batch processing, graph analysis, etc.
+
 
 ### Log-structured data flow
 
@@ -135,9 +140,11 @@ Note: log != pub sub
 
 Log is "messaging system with durability guarantees and strong ordering semantics", aka an "atomic broadcast"
 
-Discussion point:
+**Discussion points:**
 
 > I have found that "publish subscribe" doesn't imply much more than indirect addressing of messages—if you compare any two messaging systems promising publish-subscribe, you find that they guarantee very different things, and most models are not useful in this domain.
+
+Do we agree/disagree?
 
 ### At LinkedIn
 
