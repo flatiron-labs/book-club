@@ -1,8 +1,17 @@
-# Labs Bookclub
+# Labs Book Club
 
-We read good and wanna learn to do other stuff good too. Like coding. So we started a book club!
+Each week, we meet to discuss some technical aspect of a chapter of a book or a blog post. To provide some structure around our discussion, we ask a member of the team to lead. 
 
-This repo holds our group notes for the books we've been reading.
+The book club leader's responsibilities are the following:
+
+1. Read the chapter
+2. Take notes and/or come prepared with discussion questions
+3. Book a room at HQ for discussion
+4. Make sure there's a leader for the following week
+
+You don't need to be an expert in the chapter to lead book club. Just bring your own curiosity and excitement. 
+
+This repo holds our group notes for the books we've been reading. Notes aren't required, but they a) serve as a great jumping point for discussion and b) remind us of what we've learned.
 
 ## Adding Notes
 
