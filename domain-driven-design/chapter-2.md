@@ -113,23 +113,25 @@ IMPORTANT
 
 **The model is not the diagram --> a diagram's purpose is to help communicate and explain the model**
 
-### Written Design Documents
+## Written Design Documents
 
 Two General Guidelines
 
 1. Documents Should Complement Code and Speech
 2. Documents Should Work for a Living and Stay Current
 
-Extreme Programming
+### Extreme Programming
 
 - definition: no extra design documents at all and letting the code speak for itself
 - PRO: motivates developers to keep the code clean and transparent
 - CONS: overwhelms the reader with detail & the code's behavior/meaning can be hard to convey
 
 ### Look for Meaning, Don't Get Lost in the Detail
+
 > Written documents need to illuminate meaning, to give insight into large-scale structures, and to focus attention on core elements. Documents can clarify design intent when the programming language does not support a straightforward implementation of a concept.
 
 ### Let Go of Stale Documentation
+
 > You may hear the UBIQUITOUS LANGUAGE changing naturally while a document is being left behind. Evidently the document does not seem relevant to people or does not seem important enough to update. It could safely be archived as history, but left active it could create confusion and hurt the project. And if a document isn't playing an important role, keeping it up to date through sheer will and discipline wastes effort.
 
 **GOAL: By keeping documents minimal and focusing them on complementing code and conversation, documents can stay connected to the project.**
