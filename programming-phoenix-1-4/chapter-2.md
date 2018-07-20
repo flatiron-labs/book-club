@@ -125,7 +125,7 @@ iex> defmodule Place do
 - So instead match on string keys and then application boundaries (ie. controllers and channels) will convert into atom keys, which are used everywhere else
 
 ### The Request Pipeline
-- Web applications are like big functions. Each qeb request is a function call where URL is the arg. Returned response is a formatted string
+- Web applications are like big functions. Each web request is a function call where URL is the arg. Returned response is a formatted string
 - Goal can then be viewed as understanding how functions are composed to make the one big function call that handles each request
 - **Plugs**
   - Specification for building applications that connect to the web
