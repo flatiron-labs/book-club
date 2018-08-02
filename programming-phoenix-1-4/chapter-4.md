@@ -40,3 +40,5 @@ Example: Phoenix uses OTP to start and supervise Ecto repositories w/ named proc
 2. [Ecto.Repo](https://hexdocs.pm/ecto/Ecto.Repo.html)
 3. [Ecto.Query](https://hexdocs.pm/ecto/Ecto.Query.html)
 4. [List of Elixir ORMs, data mappings](https://github.com/h4cc/awesome-elixir#orm-and-datamapping](https://github.com/h4cc/awesome-elixir#orm-and-datamapping)
+5. [Daily Drip Ecto tutorial](https://www.dailydrip.com/topics/elixir/drips/ecto-basics)
+6. [Brad Urani, "ActiveRecord vs. Ecto: A Tale of Two ORMs" (RailsConf 2016)](https://youtu.be/_wD25uHx_Sw)
