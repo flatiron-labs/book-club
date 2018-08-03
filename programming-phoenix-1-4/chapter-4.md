@@ -39,6 +39,8 @@ OTP: "layer for managing concurrent, distributed services"
 
 Example: Phoenix uses OTP to start and supervise Ecto repositories w/ named process: `Repo`
 
+`Repo` represents our database
+
 ## Building Forms
 
 More on changesets:
@@ -55,6 +57,11 @@ NEW: don't call `changeset` directly, instead wrap it in a function for a clean 
 - Changesets validate AND track changes
 
 > Ecto is using changesets as a bucket to hold everything related to a database change, **before and after persistence**.
+
+
+## EXERCISE
+
+[https://github.com/ktravers/food](https://github.com/ktravers/food)
 
 
 ## Resources
