@@ -6,13 +6,23 @@ _In which we replace our in-memory storage with a database without changing any 
 
 ## What is Ecto?
 
-It's Elixir's persistence framework.
-
-Intended for relational databases.
+- It's Elixir's persistence framework
+- It's a _wrapper_
+- Intended for _relational_ databases like PostgreSQL
+- Ships with an "encapsulated" query language
+- Composable queries
+- Tedious, but reliable/predictable
 
 Some alternatives: [https://github.com/h4cc/awesome-elixir#orm-and-datamapping](https://github.com/h4cc/awesome-elixir#orm-and-datamapping)
 
-Changesets: encapsulates "whole process of receiving external data, casting and validating it before writing it to the database."
+Changesets:  
+- encapsulates "whole process of receiving external data, casting and validating it before writing it to the database."
+
+
+### Questions:
+
+1. What is an "encapsulated" query language?
+    - encapsulates entire process of receiving, casting, and validating external data before writing it to db
 
 
 ## Migrations
@@ -31,7 +41,20 @@ Example: Phoenix uses OTP to start and supervise Ecto repositories w/ named proc
 
 ## Building Forms
 
+More on changesets:
+- "Customized strategy" for handling different kinds of changes
+- Manage record changes
+- Cast parameters
+- Perform validations
+- Composable
+- Allow for multiple "update policies"
+- "Policy segregation"
 
+NEW: don't call `changeset` directly, instead wrap it in a function for a clean interface
+
+- Changesets validate AND track changes
+
+> Ecto is using changesets as a bucket to hold everything related to a database change, **before and after persistence**.
 
 
 ## Resources

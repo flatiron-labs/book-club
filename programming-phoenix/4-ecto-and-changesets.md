@@ -8,7 +8,7 @@
 - Intended for _relational_ databases like PostgreSQL
 - Ships with an "encapsulated" query language
 - Composable queries
-- Tedius, but reliable/predictable
+- Tedious, but reliable/predictable
 
 #### Questions:
 
