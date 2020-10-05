@@ -1,12 +1,16 @@
-Mastering Chaos - A Netflix Guide to Microservices
+# Mastering Chaos - A Netflix Guide to Microservices
+
+> Author: Lorgio Jimenez
+
+> Source: https://www.youtube.com/watch?v=CZ3wIuvmHeM
 
 Netflix’s first architecture was a monolith like many other applications that get started.
 
 Tightly coupled architecture is a sign of difficulty with a large application and lots of developers
 
-To start really getting the benefits of micro-services, Virtualization is really required. 
+To start really getting the benefits of micro-services, Virtualization is really required.
 
-Product is separate by domain and functionality 
+Product is separate by domain and functionality
 ![](images/Middle_Tier_and_Platform.png)
 ￼
 
@@ -19,16 +23,16 @@ Caching is a different problem to solve. It requires you to take a step back and
 Issues with MS
 Intra-service can result is cascading failures.(Setup architecture which can have retries and fallbacks)
 Testing scope is difficult to constrain. (Measure critical services only, which reduces permutations)
-Shared libraries should be done with caution, and may lead to monoliths. 
+Shared libraries should be done with caution, and may lead to monoliths.
 
 Persistence
-CAP Theorem - Consistent vs Availability Use the right tool for the job (Cassandra) 
+CAP Theorem - Consistent vs Availability Use the right tool for the job (Cassandra)
 
-Infrastructure 
+Infrastructure
 Everything fails.
 
 Stateless service
-No cache or db, affinity, or node loss. 
+No cache or db, affinity, or node loss.
 Autoscaling and replication are table steaks
 
 Stateful service
@@ -50,13 +54,13 @@ Indecent -> Resolution -> Review -> Remediation -> Analysis (new pattern?) -> Be
 ![](images/Continuous_Learning_Automation.png)
 
 Production Ready Checklist
-Automated as much as possible, and tooling to know if things are working 
+Automated as much as possible, and tooling to know if things are working
 ￼![](images/Production_Ready.png)
 
 
 Tooling accelerates engineers and workflows.
 
-The Paved Road (happy path) - Created to make efficiencies with development/deployment. 
+The Paved Road (happy path) - Created to make efficiencies with development/deployment.
 
 Going off-road isn’t bad but it needs to be thought through when put into production.
 
@@ -66,7 +70,7 @@ This will break, but how do you achieve velocity with confidence? (Hint: Tooling
 
 “Solutions first, team second”
 
-Micro-services are complex and organic Health depends on discipline and chaos 
+Micro-services are complex and organic Health depends on discipline and chaos
 
 For decencies, you want to use circuit breakers and fallbacks.
 Simple clients, and eventual consistency.  
