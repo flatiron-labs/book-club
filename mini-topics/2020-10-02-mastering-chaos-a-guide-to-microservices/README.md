@@ -1,7 +1,7 @@
 # Mastering Chaos - A Netflix Guide to Microservices
 
-Author: Lorgio Jimenez
-Source: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+> Author: Lorgio Jimenez
+> Source: https://www.youtube.com/watch?v=CZ3wIuvmHeM
 
 Netflix’s first architecture was a monolith like many other applications that get started.
 
