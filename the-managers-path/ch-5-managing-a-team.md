@@ -60,7 +60,7 @@ __Collaboration Problems__
 
 ## How to Drive Good Decisions
 
-As an engineering manager you may only have authority to guide decisions and not dictage them, but you'll still be judged on the outcome of those decisions
+As an engineering manager you may only have authority to guide decisions and not dictate them, but you'll still be judged on the outcome of those decisions
 
 __Create a Data-Driven Team Culture__
 - Efficiency and technical data points should be used to evaluate decisions on product features and technical changes
