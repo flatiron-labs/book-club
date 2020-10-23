@@ -4,6 +4,8 @@
 
 > Collections by Spencer
 
+[Spencer's Reading Notes](https://docs.google.com/document/d/1GTgwEW-VHvCvENQqkpvxMIq0BbkelZ-derVp2Zwy53I/edit?usp=sharing)
+
 ## The Majestic Monolith
 
 > Author: DHH
