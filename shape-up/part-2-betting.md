@@ -2,7 +2,7 @@
 
 *context*: we just started a 6 week cycle working on this: https://docs.google.com/document/d/1RGz7_xzeGtvjawU2uITAkjbpQ5lHtIOnR0Db-6qrrNM/edit?usp=sharing
 
-## Bets, Not Backlogs
+## Chapter 7: Bets, Not Backlogs
 
 ### no backlogs
 
@@ -25,7 +25,7 @@ willing to lobby for.
 
 * Ideas are cheap and there's a lot of them. Important ideas will resurface over time.
 
-## Betting Table
+## Chapter 8: Betting Table
 
 ### Six-week cycles
 
@@ -135,7 +135,7 @@ worth doing
 
 * what about projects that take more than 1 cycle? always plan the cycle in a way that allows you to change course
 
-## place your bets
+## Chapter 9: place your bets
 
 ### look where you are
 
