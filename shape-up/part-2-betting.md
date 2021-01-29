@@ -1,5 +1,7 @@
 # Part 2: Betting
 
+[Read it here](https://basecamp.com/shapeup/2.1-chapter-07)
+
 *context*: we just started a 6 week cycle working on this: https://docs.google.com/document/d/1RGz7_xzeGtvjawU2uITAkjbpQ5lHtIOnR0Db-6qrrNM/edit?usp=sharing
 
 ## Chapter 7: Bets, Not Backlogs
