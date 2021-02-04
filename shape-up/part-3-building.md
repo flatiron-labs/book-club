@@ -1,6 +1,6 @@
 # Part 3: Building
 
-## Chapter 10: Hand Over Responsibility
+## [Chapter 10: Hand Over Responsibility](https://basecamp.com/shapeup/3.1-chapter-10)
 
 ### Assign projects, not tasks
 
@@ -24,7 +24,7 @@
 * Discovered tasks - tasks we discover we need to do in the course of doing real work that we didn't know in advance, most tasks will be this variety
 *  The way to really figure out what needs to be done is to start doing real work
 
-## Chapter 11: Get One Piece Done
+## [Chapter 11: Get One Piece Done](https://basecamp.com/shapeup/3.2-chapter-11)
 
 * Good idea to aim to get something tangible and demoable done early
 
@@ -53,7 +53,7 @@ Three criteria to think about when choosing what to build first
 2. It should be small. The point is to finish something meaningful in a few days and build momentum—to have something real to click on that shows the team is on the right track
 3. It should be novel. If two parts of the project are both core and small, prefer the thing that you’ve never done before so the team learns something new and uncertainty is eliminated
 
-## Chapter 12: Map the Scopes
+## [Chapter 12: Map the Scopes](https://basecamp.com/shapeup/3.3-chapter-12)
 
 ### Organize by structure, not by person
 
@@ -92,7 +92,7 @@ Three signs that indicate the scopes should be redrawn
 * Chowder: loose tasks that don't fit anywhere. If this gets to longer than 3-5 tasks, then there's probably a scope missing somewhere
 * Nice-to-haves: good idea to track so can sort by must-haves and nice-to-haves
 
-## Chapter 13: Show Progress
+## [Chapter 13: Show Progress](https://basecamp.com/shapeup/3.4-chapter-13)
 
 * Managers would rather be able to just see status without having to ask explicitly for it
 * To dos aren't great for this
@@ -134,7 +134,7 @@ Three signs that indicate the scopes should be redrawn
 * Can use hill chart to sequence scopes
 * Typically want to push work with most unknowns up the hill first, once it's at the top can leave it there and start getting some other critical scopes up the hill before going back to complete
 
-## Chapter 14: Decide When to Stop
+## [Chapter 14: Decide When to Stop](https://basecamp.com/shapeup/3.5-chapter-14)
 
 How do we make the call to say what we have is good enough and move on?
 
@@ -149,14 +149,14 @@ How do we make the call to say what we have is good enough and move on?
 * Teams should have tools, authority, and responsibility to constantly cut down scope
 * Cutting scope is decision making that makes the product better at some things instead of others which differentiates the product
 * Questions to ask when scope hammering
-  ** Is this a “must-have” for the new feature?
-  ** Could we ship without this?
-  ** What happens if we don’t do this?
-  ** Is this a new problem or a pre-existing one that customers already live with?
-  ** How likely is this case or condition to occur?
-  ** When this case occurs, which customers see it? Is it core—used by everyone—or more of an edge case?
-  ** What’s the actual impact of this case or condition in the event it does happen?
-  ** When something doesn’t work well for a particular use case, how aligned is that use case with our intended audience?
+  * Is this a “must-have” for the new feature?
+  * Could we ship without this?
+  * What happens if we don’t do this?
+  * Is this a new problem or a pre-existing one that customers already live with?
+  * How likely is this case or condition to occur?
+  * When this case occurs, which customers see it? Is it core—used by everyone—or more of an edge case?
+  * What’s the actual impact of this case or condition in the event it does happen?
+  * When something doesn’t work well for a particular use case, how aligned is that use case with our intended audience?
 
 ### QA
 
@@ -176,13 +176,7 @@ How do we make the call to say what we have is good enough and move on?
 ** outstanding work must be all downhill. No unsolved problems; no open questions
 * If there's uphill work left at the end of a cycle indicates oversight in shaping or hole in concept
 
-### Chapter 15: Move On
+## [Chapter 15: Move On](https://basecamp.com/shapeup/3.6-chapter-15)
 
 * Take some time after shipping to let things settle before considering feedback and requests
 * Any requests and bugs can become a new bet and need to be shaped so you start process over again
-
-
-
-
-
-
