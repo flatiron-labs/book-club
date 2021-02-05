@@ -172,8 +172,8 @@ How do we make the call to say what we have is good enough and move on?
 ### When to extend a project
 
 * Extend a project instead of pull circuit breaker
-** outstanding tasks must be true must-haves that withstood every attempt to scope hammer them
-** outstanding work must be all downhill. No unsolved problems; no open questions
+  * outstanding tasks must be true must-haves that withstood every attempt to scope hammer them
+  * outstanding work must be all downhill. No unsolved problems; no open questions
 * If there's uphill work left at the end of a cycle indicates oversight in shaping or hole in concept
 
 ## [Chapter 15: Move On](https://basecamp.com/shapeup/3.6-chapter-15)
